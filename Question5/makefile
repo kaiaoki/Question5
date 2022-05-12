@@ -4,3 +4,5 @@ sumlimitlog2.out : no1/sumlimitlog2.c
 sumlimitpai4.out : no2/sumlimitpai4.out
 	gcc -o sumlimitpai4.out no2/sumlimitpai4.c -lm
 
+clean :
+	rm sumlimitlog2.out sumlimitpai4.out
