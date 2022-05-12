@@ -10,6 +10,6 @@ void main(void)
         SUM=SUM+pow(-1,m)/(2*m+1);
     }
     
-    printf("SUM=%lf π/4=%lf",SUM,M_PI/4);
+    printf("SUM=%lf π/4=%lf\n",SUM,M_PI/4);
 }
 
