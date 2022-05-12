@@ -10,5 +10,5 @@ void main(void)
         SUM=SUM+pow(-1,m-1)/m;
     }
     
-    printf("SUM=%lf log2=%lf",SUM,log(2));
+    printf("SUM=%lf log2=%lf\n",SUM,log(2));
 }
